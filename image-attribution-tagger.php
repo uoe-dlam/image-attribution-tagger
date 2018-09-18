@@ -91,7 +91,7 @@
 			public static function show_admin_notice() {
 				if(get_user_meta(get_current_user_id(), IMAGE_ATTRIBUTION_TAGGER_ADMIN_NOTICE, true) == 1) {
 					$class = "image_attribution_tagger_upload error notice is-dismissible";
-					$message = __( "You just uploaded an image. Was it a Creative Commons image that you would like to add an image credit to? Head to the <a href=\"/wp-admin/upload.php\">Media Library</a> to add it.&nbsp;", IMAGE_ATTRIBUTION_TAGGER_TEXT_DOMAIN );
+                    $message = __( "You just uploaded an image. Was it a Creative Commons image that you would like to add an image credit to? Head to the <a href=\"" . get_bloginfo( 'url' ) . "/wp-admin/upload.php\">Media Library</a> to add it.&nbsp;", IMAGE_ATTRIBUTION_TAGGER_TEXT_DOMAIN );
 					echo"<div class=\"$class\"> <p>$message</p></div>"; 
 				}
 			}
