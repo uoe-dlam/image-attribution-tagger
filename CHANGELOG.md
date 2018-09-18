@@ -13,4 +13,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Update link to media library so it uses the current blog's URL instead of a hard coded URL. (PR #1)
 
 [Unreleased]: https://github.com/uoe-dlam/image-attribution-tagger/compare/v1.1.0...HEAD
-[1.1.0]: https://github.com/uoe-dlam/image-attribution-tagger/compare/1.0.0...1.1.0
+[1.1.0]: https://github.com/uoe-dlam/image-attribution-tagger/compare/v1.0.0...v1.1.0
