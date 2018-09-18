@@ -8,8 +8,9 @@ the content or in the caption area.
 
 # Requirements
 
-This plugin has been tested against WordPress version 4.9. Other versions of WordPress will likely work but have not 
-been tested so please use this plugin at your discretion.
+- WordPress 4.9 or greater
+
+Other versions of WordPress will likely work but have not been tested so please use this plugin at your discretion.
 
 ## Installation
 
@@ -30,5 +31,8 @@ This plugin is released under the GNU General Public License v2.0. See the bundl
 
 ## Credits
 
-This plugin was original created by contributors eltodd and jhipkin from [Red8 Interactive](https://red8interactive.com/).
-It was forked to add multisite support to the package.
+This plugin was original created by contributors _eltodd_ and _jhipkin_ from 
+[Red8 Interactive](https://red8interactive.com/). It was forked to add multisite support to the package. The plugin in
+this repository is maintained by the [University of Edinburgh](https://www.ed.ac.uk) DLAM Learning Applications Development Team.
+
+The original code for this plugin can be found in the [WordPress plugin repository](https://wordpress.org/plugins/image-attribution-tagger/).
